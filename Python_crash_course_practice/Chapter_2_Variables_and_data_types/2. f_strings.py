@@ -1,3 +1,6 @@
+# f strings aka format strings. 
+# Python formats the string by replacing the name of any variable in braces with its value. 
+
 first_name = "ada"
 last_name = "lovelace"
 
