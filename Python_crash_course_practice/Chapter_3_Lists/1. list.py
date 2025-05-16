@@ -16,17 +16,15 @@ print (stores[0].title())
 stores[-1] = "target"
 print (stores)
 
-# appending
-# append adds to the end of the list. to insert, use insert
+# appending - append adds to the end of the list. to insert, use insert
 stores.append("target")
 print (stores)
 
-# insert
+# insert - to insert to a specific position
 stores.insert(-2, "krogers")
 print (stores)
 
-# remove with del
-# if you know the position of the item, use del
+# remove with del - if you know the position of the item, use del
 del stores[-2]
 print (stores)
 
@@ -41,7 +39,7 @@ print (f"{stores_popped} is declining in popularity")
 print (stores)
 
 # remove with remove()
-# If you only know the value of the item you want to remove, youcan use the remove() method.
+# If you only know the value of the item you want to remove, you can use the remove() method.
 
 print (stores)
 stores.append("target")
@@ -53,7 +51,7 @@ print(stores)
 # If there’s a possibility the value appears more than once in the list, 
 # you’ll need to use a loop to make sure all occurrences of the value are removed.
 
-# sorting a list permanently with sort() method.
+# sorting a list permanently with sort() method. reverse=True is used to sort in reverse order
 
 print (stores)
 stores.sort()
