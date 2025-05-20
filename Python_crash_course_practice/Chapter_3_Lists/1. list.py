@@ -24,18 +24,18 @@ print (stores)
 stores.insert(-2, "krogers")
 print (stores)
 
-# remove with del - if you know the position of the item, use del
+# remove with del - if you know the position of the item, use del. notice that del is not a method
 del stores[-2]
 print (stores)
 
 # remove with pop
 # The pop() method removes the last item in a list, but it lets you work with that item after removing it.
-# when you want to delete an item from a list, and not use that item in any way, 
-# use the del statement; if you want to use an item as you remove it, use the pop() method.
+# when you want to delete an item from a list, and not use that item in any way, use the del statement; 
+# if you want to use an item as you remove it, use the pop() method.
 
 stores_popped = stores.pop()
 print (stores_popped)
-print (f"{stores_popped} is declining in popularity")
+print (f"{stores_popped} is declining in popularity. so removing it from list")
 print (stores)
 
 # remove with remove()
@@ -60,10 +60,20 @@ stores.sort(reverse=True)
 
 # stores = ["amazon", "costco", "bestbuy", "wegmans"]
 # print (stores)
-# sorted = stores.sort()
+# sorted = []
+# stores.sort() == sorted
 # print (sorted)
-# sorted returns none. why?
 
+stores = ["amazon", "costco", "bestbuy", "wegmans"]
+stored_list = sorted(stores)
+print("Original list is: ")
+print(stores)
+print("\nSorted list is: ")
+print(stored_list)
+
+print (stores)
+sorted = stores.sort()
+print (sorted)
 
 # sorting a list temporarily with sorted() method.
 

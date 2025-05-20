@@ -11,7 +11,7 @@ for car in cars:
 for value in range(1,10):
     print (value)
 
-# range (10) - starts from 0 and counts till 9
+# range increments from 1 to 10-1=9. range (10) - starts from 0 and counts till 9. 
 
 # using range() to create a list of numbers
 

@@ -8,5 +8,5 @@ print (language.lstrip())
 # right strip
 print (language.rstrip())
 
-# strip
+# strip - strips both sides
 print (language.strip())
