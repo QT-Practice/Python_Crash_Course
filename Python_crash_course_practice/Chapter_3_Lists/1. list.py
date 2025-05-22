@@ -71,6 +71,9 @@ print(stores)
 print("\nSorted list is: ")
 print(stored_list)
 
+# stores.sort() sorts stores. sorting is permanent and the original variable is altered.
+# sorted(stores) uses function sorted() to sort stores and to store the value to another variable.
+
 print (stores)
 sorted = stores.sort()
 print (sorted)
